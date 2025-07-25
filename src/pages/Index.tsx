@@ -80,8 +80,8 @@ const Index = () => {
           onClick={handleImageClick}
         >
           <img 
-            src="/img/60c46b3e-9988-4ec1-bb94-7c4d85ad2fdc.jpg" 
-            alt="Inhuman eyes"
+            src="/img/c957415e-dc62-4260-a1e1-176f84b221b4.jpg" 
+            alt="Two dots"
             className="max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
           />
         </div>
@@ -114,12 +114,7 @@ const Index = () => {
         </div>
       )}
 
-      {/* Скрытый текст-подсказка */}
-      {!showScreamer && !redirecting && (
-        <div className="absolute bottom-10 text-gray-700 text-sm animate-pulse">
-          Нажми на картинку...
-        </div>
-      )}
+
     </div>
   );
 };
