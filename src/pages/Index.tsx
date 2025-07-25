@@ -34,8 +34,8 @@ const Index = () => {
           onClick={handleImageClick}
         >
           <img 
-            src="/img/47ed1300-98ef-440e-bc34-d5a81a8632f1.jpg" 
-            alt="Mysterious figure"
+            src="/img/c1dc20b2-0fe6-4f37-b1f2-7e433bc3c826.jpg" 
+            alt="Eyes in darkness"
             className="max-w-sm md:max-w-md lg:max-w-lg rounded-lg shadow-2xl"
           />
         </div>
@@ -46,8 +46,8 @@ const Index = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black animate-pulse">
           <div className="animate-bounce">
             <img 
-              src="/img/c8ee72b9-5489-44fb-a5bd-9a48427d5acb.jpg"
-              alt="Screamer"
+              src="/img/d7e89610-e2f2-4fd6-998d-7fb430150303.jpg"
+              alt="Horror"
               className="w-full h-full object-cover animate-shake"
               style={{
                 animation: 'shake 0.1s infinite, scale-in 0.1s ease-out'
@@ -60,13 +60,7 @@ const Index = () => {
         </div>
       )}
 
-      {/* Сообщение о редиректе */}
-      {redirecting && (
-        <div className="text-red-500 text-2xl font-bold animate-fade-in text-center">
-          <p className="mb-4">😱 GOTCHA!</p>
-          <p className="text-lg">Перенаправляю на видео...</p>
-        </div>
-      )}
+
 
       {/* Скрытый текст-подсказка */}
       {!showScreamer && !redirecting && (
