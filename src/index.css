@@ -99,3 +99,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px) rotate(-1deg);
+  }
+  75% {
+    transform: translateX(5px) rotate(1deg);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.1s infinite;
+}
